@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mode_select_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:text="@string/mode"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:padding="20dp"
+        android:textStyle="bold"/>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:padding="20dp">-->
+        <!--<EditText-->
+            <!--android:id="@+id/Player1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="@string/player_2"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginStart="16dp"-->
+            <!--android:padding="8dp"-->
+            <!--android:layout_weight="1"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/easy"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:background="@android:color/black"
+        android:padding="8dp"
+        android:text="@string/easy"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/hard"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:background="@android:color/black"
+        android:padding="8dp"
+        android:text="@string/hardm"
+        android:textColor="#FFFFFF" />
+
+
+
+</LinearLayout>
